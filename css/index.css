@@ -635,9 +635,9 @@ margin-top: 20px;
     position: relative; 
     display: inline-block;
     flex:1;
-    width: 4rem; 
+    width: 12rem; 
     height: 12rem; 
-    border-radius: 9rem; 
+    border-radius: 50%; 
     margin:1.5rem; 
     border: 1.2rem solid rgb(121, 19, 19) ; 
     box-shadow: inset 0 0 7px grey; 
@@ -679,9 +679,10 @@ margin-top: 20px;
 @media screen and (max-width: 1500px) {
     .ui-widgets
     {
-        padding: 60px;
+        padding: 0px;
         width: 10rem; 
-        height: 12rem; 
+        height: 10rem; 
+        border-radius: 50%;
     }
     .widgets {
         display: flex;
